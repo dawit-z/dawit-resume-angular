@@ -1,0 +1,10 @@
+<div class="list-group">
+  <h2>Work Experience</h2>
+  <ul *ngFor="let job of jobs">
+    <li class = "h5">{{ job.name }}</li>
+    <span>{{ job.role }} | </span>
+    <span>{{ job.location }} | </span>
+    <span>{{ job.length }}</span>
+  </ul>
+</div>
+<hr>

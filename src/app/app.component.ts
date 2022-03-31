@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dawit-resume';
+  name: string = "Dawit Zewelday";
+  address: string = "1610 Thunderbird LN";
+  postal: string = "Dayton, OH 45449";
+
 }
